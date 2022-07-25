@@ -8,7 +8,7 @@ export default {
 import { ref } from 'vue'
 const input = ref('')
 
-function sign(e) {
+function sign(e: any) {
   e.preventDefault()
   console.log('asd')
 }
