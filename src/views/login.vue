@@ -15,9 +15,7 @@ function sign(e: any) {
 </script>
 
 <template>
-  <div
-    className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
-  >
+  <div className="max-w-2xl mx-auto py-40 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <h1 class="text-3xl font-bold text-center">IoT SW</h1>
     <div class="max-w-sm p-8 border border-gray rounded-xl mt-8 mx-auto">
       <div class="text-xl text-center">관리자 로그인</div>
