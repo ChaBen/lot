@@ -1,6 +1,6 @@
 import { useLocalStorage } from '@vueuse/core'
 import { createWebHistory, createRouter } from 'vue-router'
-import Login from '@/views/login.vue'
+import Login from '@/views/Login.vue'
 import Dashboard from '@/views/Dashboard.vue'
 
 const routes = [
