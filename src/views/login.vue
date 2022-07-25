@@ -6,7 +6,8 @@ export default {
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-const input = ref('')
+const id = ref('')
+const password = ref('')
 
 function sign(e: any) {
   e.preventDefault()
@@ -21,10 +22,15 @@ function sign(e: any) {
       <div class="text-xl text-center">관리자 로그인</div>
       <el-form class="mt-6" @submit="sign">
         <el-form-item prop="name">
-          <el-input size="large" placeholder="아이디" />
+          <el-input v-model="id" size="large" placeholder="아이디" />
         </el-form-item>
         <el-form-item prop="pass">
-          <el-input size="large" placeholder="비밀번호" type="password" />
+          <el-input
+            v-model="password"
+            size="large"
+            placeholder="비밀번호"
+            type="password"
+          />
         </el-form-item>
         <el-form-item>
           <button
